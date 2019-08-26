@@ -10,7 +10,6 @@ namespace AsyncAwaitWinForms
         private readonly SynchronizationContext synchronizationContext;
         private DateTime previousTime = DateTime.Now;
         public FormAsyncAwait()
-
         {
             InitializeComponent();
             synchronizationContext = SynchronizationContext.Current;
